@@ -11,8 +11,18 @@ Simple JavaScript project template with **Yarn** & **Parcel**
 - css preprocessor: SCSS
 
 ## Installation
+Clone & install modules:
 ```
 cd path/to/project
 git clone https://github.com/ShenTengTu/parcel-project-template.git .
 yarn install
+```
+
+Remove git history:
+```
+# Windows
+rmdir /Q /S .git
+
+# Linux
+rm -rf .git
 ```
